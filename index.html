@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Gues Number Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-head">
+        <span class="crt-ans hidden">Correct Answer</span>
+        <div class="marks">
+          <p class="marks-lebel">Marks:</p>
+          <p class="current-marks"></p>
+        </div>
+      </div>
+      <div class="question">
+        <p class="first"></p>
+        <p class="operator"></p>
+        <p class="second"></p>
+      </div>
+      <p class="guaid">Click Start Quiz button to start the quiz</p>
+      <div class="options">
+        <div class="option"></div>
+        <div class="option"></div>
+        <div class="option"></div>
+        <div class="option"></div>
+      </div>
+      <div class="container-foot">
+        <button class="start-btn btn">Start Quiz</button>
+        <button class="reset-btn btn hidden">Reset</button>
+        <div class="time-cntr">
+          <span class="time-label">Time Remaining: </span>
+          <span class="time">0</span>
+        </div>
+      </div>
+      <div class="popup hidden">
+        <p>Quiz over</p>
+        <div class="mark">
+          <p>Your Marks:</p>
+          <span class="show-marks"></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
